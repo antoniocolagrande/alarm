@@ -15,7 +15,7 @@ class Alarm {
     }
 
     stop(){
-        this.clearTimeout(this.timeout)
+        clearTimeout(this.timeout)
     }
 
     schedule(h, t = 100) {
