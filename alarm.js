@@ -17,7 +17,7 @@ class Alarm {
 
     constructor(
         date = new Date(),
-        bell = new Alarm.BellAudio()
+        bell = new Alarm.AudioBell()
     ){
         Object.assign(this, {
             date: new Date(date),
